@@ -3,7 +3,6 @@ extern crate fs_extra;
 use fs_extra::dir::get_size;
 use std::{fs::read_dir, *};
 
-#[derive(Debug)]
 struct Folder {
     name: String,
     size: u64,
