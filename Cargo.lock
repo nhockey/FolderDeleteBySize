@@ -4,7 +4,13 @@ version = 3
 
 [[package]]
 name = "FolderDeleteBySize"
+<<<<<<< HEAD
 version = "0.2.3"
+||||||| parent of 3d8d3b8 (Changed Cargo.toml)
+version = "0.2.0"
+=======
+version = "0.2.1"
+>>>>>>> 3d8d3b8 (Changed Cargo.toml)
 dependencies = [
  "fs_extra",
 ]
