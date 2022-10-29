@@ -30,8 +30,14 @@ fn main() {
     if args.len() > 1 {
         size = args[1].parse::<u64>().unwrap();
     }
-    println!("This program gives 0 fucks, all folders below {}MB are deleted!", size);
-    println!("Are you sure you want to delete all folders smaller than {}MB?", size);
+    println!(
+        "This program gives 0 fucks, all folders below {}MB are deleted!",
+        size
+    );
+    println!(
+        "Are you sure you want to delete all folders smaller than {}MB?",
+        size
+    );
     println!("Type 'yes' to continue");
     let mut input = String::new();
     io::stdin().read_line(&mut input).unwrap();
