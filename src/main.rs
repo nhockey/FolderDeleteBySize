@@ -25,7 +25,7 @@ fn main() {
             folders.push(folder);
         }
     }
-    let mut size: u64 = 100;
+    let mut size = 100;
     let args: Vec<String> = env::args().collect();
     if args.len() > 1 {
         size = args[1].parse::<u64>().unwrap();
