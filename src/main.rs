@@ -1,4 +1,3 @@
-#![allow(non_snake_case)]
 extern crate fs_extra;
 use fs_extra::dir::get_size;
 use std::{fs::read_dir, *};
