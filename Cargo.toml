@@ -6,4 +6,4 @@ repository = "https://github.com/nhockey/FolderDeleteBySize"
 license = "MIT AND BSD-2-Clause"
 
 [dependencies]
-fs_extra = "1.3"
+fs_extra = "^1.3"
